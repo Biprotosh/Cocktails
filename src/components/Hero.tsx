@@ -18,12 +18,14 @@ const Hero = () => {
 
         gsap.from(".right-leaf", {
             x: 100,
+            y: 80,
             duration: 1.8,
             ease: "expo.inOut",
         });
 
         gsap.from(".left-leaf", {
             x: -100,
+            y: 80,
             duration: 1.8,
             ease: "expo.inOut",
         });
