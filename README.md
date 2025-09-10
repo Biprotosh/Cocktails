@@ -5,7 +5,8 @@ The project showcases smooth transitions, interactive motion effects, and a clea
 
 ## 📸 Screenshots
 
-
+<img width="1583" height="790" alt="Capture" src="https://github.com/user-attachments/assets/3325dccc-602e-440f-8ac8-6ee4c86ed87a" />
+<img width="1589" height="789" alt="Capture1" src="https://github.com/user-attachments/assets/e54975d4-1f5f-48a8-9156-6f9685aa2189" />
 
 ## ✨ Features
 
