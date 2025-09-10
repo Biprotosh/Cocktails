@@ -1,69 +1,70 @@
-# React + TypeScript + Vite
+# 🍹 Mojito - Cocktails Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mojito is a modern and responsive **cocktails web app** built to practice **GSAP animations** and responsive web design.  
+The project showcases smooth transitions, interactive motion effects, and a clean UI that adapts perfectly to different screen sizes.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 **GSAP-powered animations** for smooth transitions and motion effects  
+- 📱 **Fully responsive** design for mobile, tablet, and desktop  
+- 🧭 Simple and clean **UI layout**  
+- 🚀 Built as a **practice project** to explore animations and responsiveness  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Follow these instructions to set up Mojito locally.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Prerequisites
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Make sure you have installed:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [Node.js](https://nodejs.org/) (v19+ recommended)  
+- [npm](https://www.npmjs.com/)  
+
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Biprotosh/Cocktails.git
+   cd Cocktails
+2. **Install backend dependencies:**
+   ```bash 
+    npm install
+3. **Start the frontend:**
+   ```bash
+    npm run start
+    ```
+The frontend will run at http://localhost:5173 (or the port shown in your terminal).
+
+Open the app in your browser:
+Visit http://localhost:5173 to see the app in action.
+
+## Contributing
+
+Contributions are welcome! 🎉  
+If you’d like to contribute to **Cocktail**, please follow these steps:
+
+1. **Fork** the repository  
+2. **Create a new branch**  
+   ```bash
+   git checkout -b feature-name
+3. **Make your changes**
+4. **Commit your changes**
+    ```bash
+    git commit -m "Description of changes"
+5. **Push to the branch**
+    ```bash
+    git push origin feature-name
+6. **Open a Pull Request**
+
+## License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this project in accordance with the terms of the license.  
+
+See the [LICENSE](./LICENSE) file for full details.
